@@ -1,0 +1,39 @@
+.account{
+	padding: 50px 0;
+	
+}
+
+.form-contain {
+	background-color: #fff;
+	width: 400px;
+	height: 400px;
+	position: relative;
+	text-align: center;
+	padding: 20px 0;
+	margin: auto;
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.form-contain span {
+	font-weight: bold;
+	padding: 0 10px;
+	color: #383838;
+	cursor: pointer;
+	width: 100px;
+	display: inline-block;
+}
+
+form input{
+    display: block;
+    width: 80%;
+    height: 40px;
+    margin-left: 10%;
+    padding-left: 5%;
+    border-radius: 0.25rem;
+}
+
+form button{
+    width: 40%;
+    height: 50px;
+    font-size: 18px;
+}

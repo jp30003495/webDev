@@ -1,0 +1,53 @@
+.check-row {
+	display: -ms-flexbox; /* IE10 */
+	display: flex;
+	-ms-flex-wrap: wrap; /* IE10 */
+	flex-wrap: wrap;
+	margin: 5px -16px;
+  }
+
+  .check-section {
+	border: 3px solid #d03156;
+	border-radius: 30px;
+	margin: 5px 10px;
+  }
+  
+  .col-50 {
+	-ms-flex: 45%;
+	flex: 45%;
+	padding: 0 16px;
+  }
+
+  .col-75 {
+	-ms-flex: 75%;
+	flex: 75%;
+	padding: 0 16px;
+  }
+ 
+  input[type=text] {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+  }
+  
+  label {
+	margin-bottom: 10px;
+	display: block;
+  }
+  
+  .icon-container {
+	margin-bottom: 20px;
+	padding: 7px 0;
+	font-size: 24px;
+  }
+
+  @media (max-width: 800px) {
+	.check-row {
+	  flex-direction: column-reverse;
+	}
+	.col-50 {
+	  margin-bottom:10px;
+	}
+  }

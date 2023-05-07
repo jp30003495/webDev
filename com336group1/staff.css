@@ -1,0 +1,72 @@
+.InsertForm{
+    margin-left: 10%;
+    margin-right: 10%;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5%;
+
+    border: 1px solid;
+    border-radius: 15px;
+    box-shadow: 3px 5px;
+
+    align-content: center;
+}
+
+input{
+    position: sticky;
+    display: inline-block;
+}
+
+.center{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+#AddProductHeading{
+    text-align: center;
+    margin: auto;
+}
+
+#submitDiv{
+    float: right;
+    padding-right: 20px;
+}
+
+.productView{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5%;
+
+    border: 1px solid;
+    border-radius: 15px;
+    box-shadow: 3px 5px;
+
+    align-content: center;
+}
+
+#productViewID{
+    text-align: center;
+    margin: auto;
+}
+
+.productContainer{
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+td{
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: #ffbbcb;
+}
+
+
+

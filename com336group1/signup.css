@@ -1,0 +1,56 @@
+.account{
+	padding: 50px 0;
+	
+}
+
+.form-contain {
+	background-color: #fff;
+	width: 40%;
+	height: 60%;
+	position: relative;
+	padding: 20px 0;
+	margin: auto;
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.form-contain span {
+	font-weight: bold;
+	padding: 0 10px;
+	color: #383838;
+	cursor: pointer;
+	width: 100px;
+	display: inline-block;
+}
+
+form input{
+    display: block;
+    width: 80%;
+    height: 40px;
+    margin-left: 10%;
+    padding-left: 5%;
+    border-radius: 0.25rem;
+}
+
+form button{
+    width: 40%;
+    height: 50px;
+    font-size: 18px;
+	margin-left: 30%;
+}
+
+form label{
+	text-align: left;
+}
+
+form hr {
+	width: 100%; 
+	margin-left: 0%; 
+}
+
+form label, h1, p{
+	padding-left: 10%;
+}
+
+form h1{
+	padding: 4% 10%;
+}

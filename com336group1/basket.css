@@ -1,0 +1,47 @@
+.basketRow{
+    width: 100%;
+    margin-bottom: 20%;
+}
+
+.cartContainer{
+    width: 60%;
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.totalContainer{
+    width: 25%;
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    margin-right: 5%;
+    /* float: left; */
+}
+
+.total{
+    width: 25%;
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    margin-right: 5%;
+}
+
+tr:nth-child(odd) {
+    background-color: #eee;
+}
+  
+  
+th {
+    background-color: #555;
+    color: #fff;
+}
+
+
+
+.col-md-8{
+    grid-column: span 8;
+}
+
+.col-md-4{
+    grid-column: span 4;
+}
